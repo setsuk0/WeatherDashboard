@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #e5ccf2;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: auto;
+  background-image: linear-gradient(to right, #a363cb, #7a1c9c);
+}
+
+.weather-h1 {
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Helvetica", sans-serif;
+  letter-spacing: 3px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 250px;
+  margin-left: 10px;
+}
+
+#city {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#search {
+  border: 2px solid #b14fcb;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 45px;
+  color: #8c8c8c;
+  outline: none;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+#submit {
+  width: 350px;
+  height: 30px;
+  font-weight: 600;
+  color: #f1f1f1;
+  background-color: #7a1c9c;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  margin: 10px;
+}
+
+#submit:active {
+  transform: scale(0.95);
+}
+
+.previous-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.previous {
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  background-color: #b14fcb;
+  color: #343434;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.previous:active {
+  transform: scale(0.95);
+}
+
+.city-weather-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 80%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-card {
+  border-radius: 5px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background-color: #a363cb;
+}
+
+#weather-icon {
+  height: 80px;
+  width: 80px;
+}
+
+p {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.hide {
+  display: none;
+}
+
+#city-name,
+#date,
+#temperature,
+#wind-speed,
+#humidity {
+  font-family: "Helvetica", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+}
